@@ -1,0 +1,14 @@
+// Christian Tisby
+// 1/4/2023
+// Mixing types of declarations
+package main
+
+import "fmt"
+
+func main() {
+	var message = "Hello, World!" // initialize with a string value
+	email := "john@john.com" // initialize with a string value
+
+	fmt.Println(message)
+	fmt.Println(email)
+}
